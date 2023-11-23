@@ -1,0 +1,24 @@
+﻿User Accounts:
+
+username: henry.brown ---> user account --> ADO.NET in Connected Mode
+role: mis manager
+
+username: thomas.moor --> customer --> ADO.NET in Disconnected Mode
+role: sales manager
+
+username: peter.wang ---> book, author, publisher ---> Entity Framework
+role: inventory manager
+
+username: jennifer.bouchard ---> order --> Entity Framework
+role: order clerk
+
+username: kim.hoanguyen
+role: accountant
+
+Publishers: Premier Press , Murach, Prentice Hall, Morgan Kaufmann Pub
+
+Authors: 
+Lotfi Zadeh  --->Information and Control ----> lotfi.zadeh@gmail.com
+Ray Solomonoff ---> An Inductive Inference Machine ---> Ray.Solomonoff@gmail.com
+
+A Programmer's Guide to Computer Science ---> 195120400X

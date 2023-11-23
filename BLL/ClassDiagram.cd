@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HiTechDistributionInc.BLL.Author" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAAACAAAAQAgAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>BLL\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Book" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACCAAAAIAAAEEECAACAAAAAQBAAAgAABAAQQAACAA=</HashCode>
+      <FileName>BLL\Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+      <Property Name="Publisher" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Authors" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Customer" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAABAAcIAAAQAQAAAAAAAACAAAAAAAAAAE=</HashCode>
+      <FileName>BLL\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Employee" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAEAAAAQAQAAAAAAAAAAEAAAAAAAAg=</HashCode>
+      <FileName>BLL\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Inventory" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABAAAgAAIAAAAAAAAAgAAAACAAAAAA=</HashCode>
+      <FileName>BLL\Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Order" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAECAAAEAAAAQAABAJAAAAAgAAAAAAAAAMAgQAKAAUA=</HashCode>
+      <FileName>BLL\Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Customer" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="OrderDetails" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Publisher" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\Publisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.Role" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAEEAQAAAAAEAAIAAAAAEIAAAAAAAA=</HashCode>
+      <FileName>BLL\Role.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.UserAccount" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEQAAAAAACAAAABACAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\UserAccount.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employee" />
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HiTechDistributionInc.BLL.OrderDetail" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAEAAAABAAAAAAAAAAAAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>BLL\OrderDetail.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order" />
+      <Property Name="Book" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="HiTechDistributionInc.BLL.OrderStatus" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>BLL\OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HiTechDistributionInc.BLL.BookCategory">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLL\BookCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
