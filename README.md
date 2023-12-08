@@ -6,7 +6,7 @@ and numerous C# files organized into various layers such as Business Logic Layer
 
 # Contents
 
-- .git-related Files: Version control related configurations.
+- .git-related Files: Version control-related configurations.
 - SQL Scripts: Scripts like `2021.sql`, `script.sql`, and `Script_Dec_8.sql` for database operations.
 - PDF Document: Contains the project requirements or specifications.
 - C# Project Files: Includes the main project file `HiTechDistributionInc.csproj`, solution file `HiTechDistributionInc.sln`, and various source code files.
