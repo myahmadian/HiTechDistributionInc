@@ -5,7 +5,6 @@ The project is structured in a typical C# solution format and includes several S
 and numerous C# files organized into various layers such as Business Logic Layer (BLL), Data Access Layer (DAL), and others.
 
 # Contents
-
 - .git-related Files: Version control-related configurations.
 - SQL Scripts: Scripts like `2021.sql`, `script.sql`, and `Script_Dec_8.sql` for database operations.
 - PDF Document: Contains the project requirements or specifications.
